@@ -1,0 +1,104 @@
+{
+  "_note": "Synthetic demo conversation, written for this archive. Not benchmark data. Used only to exercise the pipeline end to end.",
+  "scope": "demo-user",
+  "sessions": [
+    {
+      "label": "S1",
+      "date": "2023-01-20",
+      "turns": [
+        {"role": "user", "content": "I just lost my job at the bank downtown."},
+        {"role": "assistant", "content": "That is rough. What is the plan from here?"},
+        {"role": "user", "content": "I want to open a dance studio. I have danced since childhood and I prefer contemporary dance."},
+        {"role": "assistant", "content": "A studio has been the goal for a while then."},
+        {"role": "user", "content": "Yes. My friend Lena runs a small gallery and she says she can help me look at spaces."}
+      ]
+    },
+    {
+      "label": "S2",
+      "date": "2023-01-29",
+      "turns": [
+        {"role": "user", "content": "Lena found a place with natural light, right in the old market quarter."},
+        {"role": "assistant", "content": "How big is it?"},
+        {"role": "user", "content": "Two rooms. I want Marley flooring, that is what I trained on."},
+        {"role": "assistant", "content": "And the rent?"},
+        {"role": "user", "content": "Manageable. I visited Paris last week and saw three studios there, which helped me decide."}
+      ]
+    },
+    {
+      "label": "S3",
+      "date": "2023-02-01",
+      "turns": [
+        {"role": "user", "content": "I am searching for a place to open the studio, and I am also working on my first show."},
+        {"role": "assistant", "content": "What is the show?"},
+        {"role": "user", "content": "A short contemporary piece about leaving a job. Lena is helping me with the poster."},
+        {"role": "assistant", "content": "Any date yet?"},
+        {"role": "user", "content": "I want it before the February festival, so I am rehearsing three evenings a week."}
+      ]
+    },
+    {
+      "label": "S4",
+      "date": "2023-02-04",
+      "turns": [
+        {"role": "user", "content": "The lease is signed. The studio opens in the old market quarter."},
+        {"role": "assistant", "content": "Congratulations. Who is helping with the business side?"},
+        {"role": "user", "content": "Lena handles the paperwork. Her help means a lot to me."},
+        {"role": "assistant", "content": "What is the first class?"},
+        {"role": "user", "content": "A beginner contemporary class on Tuesday evenings. I am preparing a March competition too."}
+      ]
+    },
+    {
+      "label": "S5",
+      "date": "2023-02-08",
+      "turns": [
+        {"role": "user", "content": "The festival performance went well. We placed first in the local competition in 2022, and this felt the same."},
+        {"role": "assistant", "content": "Are you still teaching the Tuesday class?"},
+        {"role": "user", "content": "Yes, twelve students signed up. I also started an online clothing store to fund the studio."},
+        {"role": "assistant", "content": "Is the store doing anything?"},
+        {"role": "user", "content": "It covers the rent. Lena models some of the pieces."}
+      ]
+    },
+    {
+      "label": "S6",
+      "date": "2023-03-16",
+      "turns": [
+        {"role": "user", "content": "I lost the bank job in January and the studio is now my full-time work."},
+        {"role": "assistant", "content": "Any news on the March competition?"},
+        {"role": "user", "content": "I entered the duet category. I am coaching with Lena twice a week."},
+        {"role": "assistant", "content": "How many classes are running now?"},
+        {"role": "user", "content": "Four. Contemporary, beginner ballet, a kids class, and an open floor session."}
+      ]
+    },
+    {
+      "label": "S7",
+      "date": "2023-03-23",
+      "turns": [
+        {"role": "user", "content": "The March competition is done. We did not place, but the piece was well received."},
+        {"role": "assistant", "content": "What is next?"},
+        {"role": "user", "content": "A summer workshop. I want to run it at the studio over two weekends."},
+        {"role": "assistant", "content": "Will Lena be involved?"},
+        {"role": "user", "content": "She is doing the photography for the workshop flyer."}
+      ]
+    },
+    {
+      "label": "S8",
+      "date": "2023-04-03",
+      "turns": [
+        {"role": "user", "content": "Small update: the studio now has a second room finished, and the flooring is finally the Marley I wanted."},
+        {"role": "assistant", "content": "That changes the class schedule?"},
+        {"role": "user", "content": "Yes. The workshop is set for the first two weekends of July, and the Tuesday class moves to the larger room."},
+        {"role": "assistant", "content": "And the clothing store?"},
+        {"role": "user", "content": "Still running. It pays for the second room."}
+      ]
+    }
+  ],
+  "questions": [
+    {"q": "What flooring did I want in the studio?", "q_type_hint": "2"},
+    {"q": "When did I sign the lease for the studio?", "q_type_hint": "2"},
+    {"q": "How many dance classes am I running at the studio?", "q_type_hint": "2"},
+    {"q": "What do I plan to do at the summer workshop?", "q_type_hint": "4"},
+    {"q": "How did my plans change between February and April?", "q_type_hint": "4"},
+    {"q": "What was my job before I opened the studio?", "q_type_hint": "1"},
+    {"q": "What kind of support did Lena give me?", "q_type_hint": "3"},
+    {"q": "Where is the studio located?", "q_type_hint": "knowledge-update"}
+  ]
+}
